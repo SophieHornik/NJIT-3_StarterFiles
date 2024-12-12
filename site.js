@@ -24,24 +24,28 @@
 const vue_app = Vue.createApp({
       // This automatically imports your movies.json file and puts it into
       //   the variable: movies
-      created () {
+      created() {
             fetch('movies.json').then(response => response.json()).then(json => {
                   this.movies = json
             })
       },
       data() {
-        return {
-            // This holds your movies.json data.
-            movies: [],
-            /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
-           title: "Sophie's favorite movies",
-           owner: "Sophie",
-           github:"https://github.com/SophieHornik/NJIT-3_StarterFiles",
-      }
-    },
+            return {
+                  // This holds your movies.json data.
+                  movies: [],
+                  /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
+                  title: "Sophie's favorite movies",
+                  owner: "Sophie",
+                  github: "https://github.com/SophieHornik/NJIT-3_StarterFiles",
+            }
+      },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
-      }
-})
+            getMonthArray: function (dateArray) {
+                 
+
+            }
+        }
+      })
 
 vue_app.mount("#vue_app")
