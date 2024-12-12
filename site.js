@@ -36,7 +36,7 @@ const vue_app = Vue.createApp({
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
            title: "Sophie's favorite movies",
            owner: "Sophie",
-           github:"https://github.com/SophieHornik/NJIT-3_StarterFiles"
+           github:"https://github.com/SophieHornik/NJIT-3_StarterFiles",
       }
     },
       methods: {
