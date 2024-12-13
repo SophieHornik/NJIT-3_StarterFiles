@@ -59,7 +59,7 @@ const vue_app = Vue.createApp({
                         case 5:
                               month = "May"
                               break
-                        case 6: 
+                        case 6:
                               month = "June"
                               break
                         case 7:
@@ -81,13 +81,18 @@ const vue_app = Vue.createApp({
                               month = "December"
                               break
 
+                  }
+                  return month + " " + dateArray[2] + ", " + dateArray[0]
+            },
+            posterClick(index) {
+                  if (this.movies[index].posterindex > this.movies[index].posters.length - 2) {
+                        this.movies[index].posterindex = 0
+                  } else {
+                        this.movies[index].posterindex++
+                  }
             }
-            return month + " " + dateArray[2] + ", " + dateArray[0]
-      },
-        }
-        like(index){
-            
-        }
-      })
+      }
+        
+})
 
 vue_app.mount("#vue_app")
