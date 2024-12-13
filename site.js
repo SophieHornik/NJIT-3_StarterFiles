@@ -85,6 +85,9 @@ const vue_app = Vue.createApp({
             return month + " " + dateArray[2] + ", " + dateArray[0]
       },
         }
+        like(index){
+            
+        }
       })
 
 vue_app.mount("#vue_app")
