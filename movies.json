@@ -76,11 +76,39 @@
             "runtime": 140,
             "released": [2005, 5, 19],
             "country": "USA",
-            "posters": ["img/sep3.jpg"],
+            "posters": ["img/ep3.jpg","img/R.jpg"],
             "imdb": "https://www.imdb.com/title/tt0121766/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_star%2520wars%2520reve",
             "website": "https://www.disneyplus.com/movies/star-wars-revenge-of-the-sith-episode-iii/4WvbqLFumNvi?irclickid=yEtwvVTtexyKRT0Ui9V4x2a7UkCXRbxMKxX2RY0&irgwc=1&cid=DSS-Affiliate-Impact-Loyalty-Bing+Rebates+by+Microsoft-2185572&tgclid=0601003c-97b1-4d57-b000-00f9675c661a&dclid=CPzl7aeapYoDFVMvaAgdMHwALw",
             "likes": 917,
             "dislikes": 94,
+            "posterindex": 0
+      },
+      {
+            "title": "The Greatest Showman",
+            "iscore": 7.5,
+            "rating": "PG",
+            "runtime": 105,
+            "released": [2017, 12, 20],
+            "country": "USA",
+            "posters": ["img/gs1.jpg","img/gs2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt1485796/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_the%2520greatest%2520sh",
+            "website": "https://www.themoviedb.org/movie/316029-the-greatest-showman/releases",
+            "likes": 903,
+            "dislikes": 97,
+            "posterindex": 0
+      },
+      {
+            "title": "The Notebook",
+            "iscore": 7.8,
+            "rating": "PG-13",
+            "runtime": 123,
+            "released": [2004, 6, 25],
+            "country": "USA",
+            "posters": ["img/nb1.jpg","img/nb2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0332280/?ref_=fn_all_ttl_1",
+            "website": "https://www.disneyplus.com/movies/star-wars-revenge-of-the-sith-episode-iii/4WvbqLFumNvi?irclickid=yEtwvVTtexyKRT0Ui9V4x2a7UkCXRbxMKxX2RY0&irgwc=1&cid=DSS-Affiliate-Impact-Loyalty-Bing+Rebates+by+Microsoft-2185572&tgclid=0601003c-97b1-4d57-b000-00f9675c661a&dclid=CPzl7aeapYoDFVMvaAgdMHwALw",
+            "likes": 890,
+            "dislikes": 102,
             "posterindex": 0
       }
 ]
